@@ -1,0 +1,12 @@
+*{margin: 0;padding: 0}
+
+html{
+    background: maroon;
+    display: flex;
+}
+
+
+.container{
+    width: 100px;
+}
+
