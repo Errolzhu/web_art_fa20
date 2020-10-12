@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Kufam', cursive;
+}
+
+.wrapper{
+    background-color: lightslategrey;
+    width: 100vw;
+    max-width: 1200px;
+    height: 100vh;
+    margin:0 auto;
+}
+
+h1{
+    color: mintcream;
+}
+
+header{
+    padding: 10vmin;
+    background: #000800;
+    margin-bottom: 2vmin;
+
+}
