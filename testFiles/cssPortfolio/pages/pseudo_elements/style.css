@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Kufam', cursive;
+}
+
+p{
+    margin: 20px 20px 20px 20px;
+    max-width: 300px;
+    line-height: 30px;
+}
+
+p::first-letter{
+    color: darkolivegreen;
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+p::first-line{
+    font-variant-caps: all-petite-caps;
+    font-size: 200%;
+}
+
