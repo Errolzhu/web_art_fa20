@@ -10,12 +10,20 @@ html{
     text-align: center;
 }
 
-.lower{
-    font-variant: small-caps;
+.container{
+    background-color: lightslategray;
+    width: 20vmin;
+    height: 20vmax;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.upper{
-    font-variant-caps: unicase;
-    font-variant-east-asian: full-width;
-    font-variant-ligatures: contextual;
+.min{
+    font-size: 16px;
+}
+
+.max{
+    font-size: 16px;
 }
