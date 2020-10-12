@@ -19,5 +19,34 @@ p{
   }
 
 p:hover{
-    
+    color: lavender;
 }
+
+a{
+    margin:70px;
+}
+
+a:active{
+    color:lavender;
+}
+a:hover{
+    font-size: 150%;
+}
+
+a:visited{
+    font-size:50%;
+    color: lightgreen;
+}
+
+.white{
+    color: white;
+}
+
+
+form{
+    margin: 20px;
+}
+
+input:focus {
+    background-color:moccasin;
+  }
