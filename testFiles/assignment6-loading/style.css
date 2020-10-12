@@ -1,0 +1,9 @@
+html{
+    font-family: Arial;
+}
+
+nav a{
+    display:block;
+    background: yellow;
+    margin:20px 0;
+}
