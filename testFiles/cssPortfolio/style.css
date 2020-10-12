@@ -18,11 +18,22 @@ html{
 
 h1{
     color: mintcream;
+    font-size: 10vmin;
 }
 
 header{
     padding: 10vmin;
     background: #000800;
     margin-bottom: 2vmin;
+    text-align: justify;
+}
 
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery__item{
+    margin: 2vmin;
 }
