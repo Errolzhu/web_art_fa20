@@ -8,13 +8,10 @@ html{
     font-family: 'Kufam', cursive;
 }
 
-body{
-    background-image: url(image/fd3ccd7b49e366b4206f5ac7f8fa8dac.gif);
-    
-  
-    background-position: center center;  
-}
 
-h1{
-    color:grey;
+video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
