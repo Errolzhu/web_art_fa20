@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Kufam', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.container{
+    background-color: lightslategray;
+    width: 20vmin;
+    height: 20vmax;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.min{
+    font-size: 16px;
+}
+
+.max{
+    font-size: 16px;
+}
