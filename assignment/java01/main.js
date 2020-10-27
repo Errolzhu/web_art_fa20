@@ -10,7 +10,6 @@ $(document).ready(function(){
     $('html').mouseup(function(){
         noneClicked = true;
         swapPunch();
-        
     });
 
 
@@ -22,6 +21,18 @@ $(document).ready(function(){
             $("#nekopunch").html("&nbsp;&ensp;Λ_Λ<br>&nbsp;(　 ·ω·) ＝つ≡つ<br>( つ 　≡つ＝つ<br>&nbsp;/ __ 　) パパパパ <br>&nbsp;&nbsp;( ／ Ｕ");
         }
     }
+
+    $('html').live("touchstart",function(){
+        noneClicked = false;
+        swapPunch();
+    });
+
+    $('html').live("touchend",function(){
+        noneClicked = true;
+        swapPunch();
+    });
+
+
 })
 
 
