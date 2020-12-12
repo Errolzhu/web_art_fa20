@@ -7,7 +7,8 @@ let wanderList = [4000];
 //let base;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  let canvas = createCanvas(windowWidth, windowHeight);
+  //canvas.center();
   capture = createCapture(VIDEO);
   capture.size(640, 480);
   capture.hide();
